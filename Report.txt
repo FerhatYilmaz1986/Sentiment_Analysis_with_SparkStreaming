@@ -13,7 +13,7 @@ Tasks:
 5. Submit the screenshot of the code to do all the tasks (the running code) to Canvas as well
 
 Worked on connecting to the Twitter API and streaming the data to a port for spark to read from and classify the tweets as they come in.
-![](../../Downloads/pasted image 0.png)
+
 
 Train Machine Learning Algorithms and store data to database
 	⁃	Uploaded train and test datasets
