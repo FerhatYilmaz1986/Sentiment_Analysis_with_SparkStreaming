@@ -1,6 +1,7 @@
 ## Sentiment Analysis with SparkStreaming  
   
 ### Tasks:  
+  
 Do twitter streaming analysis using Spark streaming  
 Train machine learning algorithms to perform sentiment analysis based on the training data and classify stream of tweets using Spark MLib  
 Store the fetched tweets data and their classification results in a database  
