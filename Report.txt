@@ -6,11 +6,11 @@ Taiwo Kupoluyi
 
 Tasks:
 
-Do twitter streaming analysis using Spark streaming
-Train machine learning algorithms to perform sentiment analysis based on the training data and classify stream of tweets using Spark MLib
-Store the fetched tweets data and their classification results in a database
-Submit your codes and report to Canvas
-Submit the screenshot of the code to do all the tasks (the running code) to Canvas as well
+1. Do twitter streaming analysis using Spark streaming
+2. Train machine learning algorithms to perform sentiment analysis based on the training data and classify stream of tweets using Spark MLib
+3. Store the fetched tweets data and their classification results in a database
+4. Submit your codes and report to Canvas
+5. Submit the screenshot of the code to do all the tasks (the running code) to Canvas as well
 
 Train Machine Learning Algorithms and store data to database
 	⁃	Uploaded train and test datasets
