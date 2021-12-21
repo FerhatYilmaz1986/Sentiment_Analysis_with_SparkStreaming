@@ -1,0 +1,31 @@
+Project Group:
+
+Ferhat Yilmaz
+Kendy colon
+Taiwo Kupoluyi
+
+Tasks:
+
+Do twitter streaming analysis using Spark streaming
+Train machine learning algorithms to perform sentiment analysis based on the training data and classify stream of tweets using Spark MLib
+Store the fetched tweets data and their classification results in a database
+Submit your codes and report to Canvas
+Submit the screenshot of the code to do all the tasks (the running code) to Canvas as well
+
+Train Machine Learning Algorithms and store data to database
+	⁃	Uploaded train and test datasets
+	⁃	Renamed column names because columns didn’t have names in the raw format
+	⁃	Explored datasets briefly by printing schema and counting the distribution of positive and negative classes
+	⁃	Created a pipeline consists of:
+	⁃	Tokenizer that converts sentences into word tokens
+	⁃	Stop words remover that removes stop words such as a, an, the
+	⁃	Count vectorizer and IDF transformer, converts text into vectors based on their frequency
+	⁃	Label indexer that converts our target column, sentiment into categories; 1 or 0
+	⁃	VectorAssembler that converts everything that we done above into a single vector for each tweet
+	⁃	Fitted the pipeline to datasets
+	⁃	Applied LogisticRegression classifier to the dataset. Training the model was computationally expensive due to data size.
+	⁃	Evaluated model performance with BinaryClassificationEvaluator, which uses ROC as an evaluation metric. Model performance is 75.8.
+	⁃	Due to performance issues, couldn’t train more complicated algorithms such as RandomForest or XGBoost
+	⁃	Predicted new tweets by using the trained model above
+	⁃	Saved predictions to parquet file
+	⁃	Saved that parquet file to a S3 bucket on AWS
